@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/auth";
+const API = "https://nr-college-backend.onrender.com/api/auth";
 
 // REGISTER - returns { token, user }
 export const registerUser = async (data: any) => {
